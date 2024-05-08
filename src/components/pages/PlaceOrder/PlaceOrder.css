@@ -1,0 +1,41 @@
+.placeorder {
+    display: flex;
+    gap: 50px ;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.play0rder-left {
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+.play0rder-left .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.play0rder-left input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    outline-color: tomato ;
+    border-radius: 4px;
+}
+.play0rder-left .multy {
+    display: flex;
+    gap: 10px;
+}
+.play0rder-right {
+    width: 100%;
+    max-width: max(40%, 500px);
+}
+.play0rder-right button {
+    margin-top: 30px;
+}
+
+@media (max-width:750px) {
+    .placeorder {
+        flex-direction: column;
+    }
+}
